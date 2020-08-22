@@ -20,7 +20,7 @@ $(document).ready(function(){
 $(document).ready(function () {
 	$("#close").click(function () {
 		$("#aviso").hide();
-		window.location.href = "http://futebolespetacular.com.br"
+		window.location.href = "https://www.futebolespetacular.com.br"
 	});
 });
 
