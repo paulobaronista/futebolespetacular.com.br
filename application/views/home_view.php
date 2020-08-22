@@ -14,7 +14,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-03">
-                    CONHEÇA NOSSOS PROJETOS<br>
+                    CONHEÇA OS PROJETOS<br>
                     COMERCIAIS DA NOVA TEMPORADA
                 </p>
                 <p class="txt-04">AUDIêNCIAS ESPETACULARES. NÚMEROS IMPRESSIONANTES.</p>
