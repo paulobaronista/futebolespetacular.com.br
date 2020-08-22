@@ -1,0 +1,87 @@
+.home {
+  background: url(../images/bg-home.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #06113a;
+  padding-bottom: 50px;
+}
+
+.home .logos {
+  margin-top: 25px;
+}
+
+.home p {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.home .txt-01 {
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 40px;
+}
+
+.home .txt-01 span {
+  font-size: 62px;
+}
+
+.home .txt-02 {
+  font-size: 42px;
+  line-height: 42px;
+  margin-top: 50px;
+  color: #5af7dc;
+}
+
+.home .txt-03 {
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 380px;
+  color: #5af7dc;
+}
+
+.home .txt-04 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 60px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home {
+    background: url(../images/bg-home-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+  }
+  .home .txt-01 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .home .txt-01 span {
+    font-size: 42px;
+  }
+  .home .txt-02 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .home .txt-03 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 230px;
+  }
+  .home .txt-04 {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=home.css.map */

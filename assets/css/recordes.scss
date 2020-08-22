@@ -1,0 +1,88 @@
+.recordes {
+    margin-top: 80px;
+
+    .txt-01 {
+        font-family: 'Champions';
+        font-weight: 800;
+        font-style: normal;
+        color: #5af7dc;
+        font-size: 50px;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+}
+
+.bg-recordes {
+    width: 100%;
+    position: relative;
+    background: url(../images/bg-recordes.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: #06113a;
+    padding-bottom: 150px;
+
+    .txt-02 {
+        font-family: 'Champions';
+        font-weight: 800;
+        font-style: normal;
+        color: #5af7dc;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        margin-top: 100px;
+
+        span {
+            color: #fff;
+        }
+    }
+
+    small {
+        font-family: 'Champions';
+        font-weight: 300;
+        font-style: normal;
+        color: #fff;
+        font-size: 10px;
+        line-height: 10px;
+        display: block;
+        opacity: 0.5;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .recordes {
+        margin-top: 20px;
+
+        .txt-01 {
+            font-size: 23px;
+            line-height: 23px;
+        }
+    }
+
+    .bg-recordes {
+        background: #06113a;
+        padding-bottom: 20px;
+
+        .txt-02 {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 5px;
+            margin-top: 0px;
+        }
+
+        small {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

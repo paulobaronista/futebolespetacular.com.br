@@ -1,0 +1,89 @@
+.home {
+    background: url(../images/bg-home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #06113a;
+    padding-bottom: 50px;
+    .logos {
+        margin-top: 25px;
+    }
+    p {
+        font-family: 'Champions';
+        font-weight: 800;
+        font-style: normal;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .txt-01 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 40px;
+        span {
+            font-size: 62px; 
+        }
+    }
+    .txt-02 {
+        font-size: 42px;
+        line-height: 42px;
+        margin-top: 50px;
+        color: #5af7dc;
+    }
+    .txt-03 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 380px;
+        color: #5af7dc;
+    }
+    .txt-04 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 60px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px){
+    .home {
+        background: url(../images/bg-home-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 20px;
+        .txt-01 {
+            font-size: 30px;
+            line-height: 30px;
+            margin-top: 20px;
+            span {
+                font-size: 42px; 
+            }
+        }
+        .txt-02 {
+            font-size: 30px;
+            line-height: 30px;
+            margin-top: 30px;
+        }
+        .txt-03 {
+            font-size: 25px;
+            line-height: 25px;
+            margin-top: 230px;
+        }
+        .txt-04 {
+            font-size: 16px;
+            line-height: 16px;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+
+}
+/* Large */
+@media(min-width:1200px){
+
+}
