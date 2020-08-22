@@ -1,0 +1,92 @@
+.bg-tnt {
+    background: url(../images/bg-tnt.jpg) no-repeat;
+    background-size: cover;
+    background-position: left top;
+    position: relative;
+    padding-bottom: 140px;
+    .txt-01 {
+        font-family: 'Champions';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .txt-02 {
+        font-family: 'Champions';
+        font-weight: 800;
+        font-style: normal;
+        color: #5af7dc;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        span {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .txt-03 {
+        font-family: 'Champions';
+        font-weight: 800;
+        font-style: normal;
+        color: #5af7dc;
+        font-size: 25px;
+        line-height: 25px;
+        text-transform: uppercase;
+        margin-top: 45px;
+    }
+    .logo-tnt {
+        margin-top: 100px;
+    }
+}
+/* Extra Small */
+@media(max-width:767px) {
+    .bg-tnt {
+        background: url(../images/bg-tnt-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: left top;
+        position: relative;
+        padding-bottom: 20px;
+        .txt-01 {
+            font-size: 20px;
+            line-height: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .txt-02 {
+            font-size: 25px;
+            line-height: 25px;
+            text-align: center;
+            span {
+                font-size: 9px;
+                line-height: 9px;
+            }
+        }
+        .txt-03 {
+            font-size: 15px;
+            line-height: 15px;
+            text-align: center;
+            margin-top: 25px;
+        }
+        .logo-tnt {
+            margin-top: 30px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 30%;
+        }
+    } 
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

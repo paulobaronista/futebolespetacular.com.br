@@ -21,6 +21,11 @@
     background-color: #06113a;
     padding-bottom: 150px;
 
+    .datas {
+        z-index: 100;
+        position: relative;
+    }
+
     .txt-02 {
         font-family: 'Champions';
         font-weight: 800;

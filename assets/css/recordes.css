@@ -22,6 +22,11 @@
   padding-bottom: 150px;
 }
 
+.bg-recordes .datas {
+  z-index: 100;
+  position: relative;
+}
+
 .bg-recordes .txt-02 {
   font-family: 'Champions';
   font-weight: 800;

@@ -1,0 +1,71 @@
+.bg-audiencia {
+  background: url(../images/bg-audiencia.png) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  margin-top: -240px;
+  padding-bottom: 120px;
+}
+
+.bg-audiencia .txt-01 {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #5af7dc;
+  font-size: 54px;
+  line-height: 54px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin-top: 220px;
+}
+
+.bg-audiencia .txt-02 {
+  font-family: 'Champions';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 37px;
+  line-height: 37px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.bg-audiencia .parisxleipzig {
+  margin-top: 40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .bg-audiencia {
+    background: url(../images/bg-audiencia-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+  .bg-audiencia .txt-01 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .bg-audiencia .txt-02 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .bg-audiencia .parisxleipzig {
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=audiencia.css.map */

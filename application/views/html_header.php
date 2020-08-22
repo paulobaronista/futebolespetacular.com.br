@@ -5,8 +5,8 @@
         <title><?php echo $title; ?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="title" content="NOME DO SITE" />
-        <meta name="og:title" content="NOME DO SITE" />
+        <meta name="title" content="UEFA CHAMPIONS LEAGUE 20/21" />
+        <meta name="og:title" content="UEFA CHAMPIONS LEAGUE 20/21" />
         <meta name="og:description" content="DESCRIÇÃO" />
         <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
@@ -17,10 +17,10 @@
         <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <meta name="theme-color" content="#051143"/>
         <!-- property (faz funcionar no linkedin) -->
-        <meta property="og:title" content="NOME DO SITE" />
+        <meta property="og:title" content="UEFA CHAMPIONS LEAGUE 20/21" />
         <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-        <meta property="NOME DO SITE" />
-        <meta property="og:url" content="https://www.landingpagemodelo.com.br" />
+        <meta property="UEFA CHAMPIONS LEAGUE 20/21" />
+        <meta property="og:url" content="https://www.futebolespetacular.com.br" />
         <!-- property (faz funcionar no linkedin) -->
         <?php
         $meta = array(

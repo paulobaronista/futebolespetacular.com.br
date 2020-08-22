@@ -1,0 +1,204 @@
+.bg-contato {
+  background: url(../images/bg-contato.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.bg-contato .txt-01 {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #5af7dc;
+  font-size: 33px;
+  line-height: 33px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.bg-contato .txt-02 {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.bg-contato .logos {
+  margin-top: 40px;
+}
+
+.bg-contato .mail-to {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.bg-contato .mail-to a {
+  font-family: 'Champions';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.bg-contato .box-form {
+  background-color: #051139;
+  position: relative;
+  padding: 40px 60px;
+}
+
+.bg-contato .box-form label {
+  font-family: 'Champions';
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+}
+
+.bg-contato .box-form .form-control {
+  font-family: 'Champions';
+  font-weight: normal;
+  font-style: normal;
+  height: 47px;
+  padding: 6px 12px;
+  font-size: 16px;
+  color: #051139;
+  background-color: #fff;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  opacity: 0.5;
+}
+
+.bg-contato .box-form textarea {
+  height: 155px !important;
+}
+
+.bg-contato .box-form .btn_enviar {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 19px;
+  color: #fff;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 12px 60px;
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px #664cf9;
+  box-shadow: 0px 0px 20px 0px #664cf9;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#664cf9+0,ff16ff+100 */
+  background: #664cf9;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#664cf9), to(#ff16ff));
+  background: linear-gradient(to right, #664cf9 0%, #ff16ff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#664cf9', endColorstr='#ff16ff', GradientType=1);
+  /* IE6-9 */
+}
+
+.bg-contato .cookies {
+  background-color: #051139;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  display: none;
+}
+
+.bg-contato .cookies p {
+  font-family: 'Champions';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 7px;
+}
+
+.bg-contato .cookies .btn_cookie {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 12px 30px;
+  width: 160px;
+  -webkit-box-shadow: 0px 0px 20px 0px #664cf9;
+  box-shadow: 0px 0px 20px 0px #664cf9;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#664cf9+0,ff16ff+100 */
+  background: #664cf9;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#664cf9), to(#ff16ff));
+  background: linear-gradient(to right, #664cf9 0%, #ff16ff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#664cf9', endColorstr='#ff16ff', GradientType=1);
+  /* IE6-9 */
+}
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer p {
+  font-family: 'Champions';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .bg-contato {
+    background: url(../images/bg-contato-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .bg-contato .txt-01 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .bg-contato .txt-02 {
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: 20px;
+  }
+  .bg-contato .logos {
+    margin-top: 20px;
+  }
+  .bg-contato .mail-to {
+    margin-top: 30px;
+  }
+  .bg-contato .box-form {
+    padding: 30px 20px;
+  }
+  .bg-contato .cookies {
+    padding-top: 10px;
+  }
+  .bg-contato .cookies .btn_cookie {
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=contato.css.map */

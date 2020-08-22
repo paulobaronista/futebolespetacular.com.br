@@ -1,0 +1,223 @@
+.bg-contato {
+    background: url(../images/bg-contato.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    padding-bottom: 40px;
+
+    .txt-01 {
+        font-family: 'Champions';
+        font-weight: 800;
+        font-style: normal;
+        color: #5af7dc;
+        font-size: 33px;
+        line-height: 33px;
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
+
+    .txt-02 {
+        font-family: 'Champions';
+        font-weight: 800;
+        font-style: normal;
+        color: #fff;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    .logos {
+        margin-top: 40px;
+    }
+
+    .mail-to {
+        margin-top: 40px;
+        margin-bottom: 15px;
+
+        a {
+            font-family: 'Champions';
+            font-weight: bold;
+            font-style: normal;
+            color: #fff;
+            font-size: 24px;
+            line-height: 24px;
+        }
+
+    }
+
+    .box-form {
+        background-color: #051139;
+        position: relative;
+        padding: 40px 60px;
+
+        label {
+            font-family: 'Champions';
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 14px;
+            color: #fff;
+        }
+
+        .form-control {
+            font-family: 'Champions';
+            font-weight: normal;
+            font-style: normal;
+            height: 47px;
+            padding: 6px 12px;
+            font-size: 16px;
+            color: #051139;
+            background-color: #fff;
+            border: 0px solid transparent;
+            border-radius: 0px;
+            opacity: 0.5;
+        }
+
+        textarea {
+            height: 155px !important;
+        }
+
+        .btn_enviar {
+            font-family: 'Champions';
+            font-weight: 800;
+            font-style: normal;
+            font-size: 19px;
+            line-height: 19px;
+            color: #fff;
+            border: 0px solid transparent;
+            border-radius: 50px;
+            padding: 12px 60px;
+            margin-top: 30px;
+            -webkit-box-shadow: 0px 0px 20px 0px rgba(102, 76, 249, 1);
+            -moz-box-shadow: 0px 0px 20px 0px rgba(102, 76, 249, 1);
+            box-shadow: 0px 0px 20px 0px rgba(102, 76, 249, 1);
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#664cf9+0,ff16ff+100 */
+            background: #664cf9;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #664cf9 0%, #ff16ff 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #664cf9 0%, #ff16ff 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #664cf9 0%, #ff16ff 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#664cf9', endColorstr='#ff16ff', GradientType=1);
+            /* IE6-9 */
+
+        }
+    }
+
+    .cookies {
+        background-color: #051139;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        display: none;
+
+        p {
+            font-family: 'Champions';
+            font-weight: 300;
+            font-style: normal;
+            color: #fff;
+            font-size: 12px;
+            line-height: 14px;
+            margin-top: 7px;
+        }
+
+        .btn_cookie {
+            font-family: 'Champions';
+            font-weight: 800;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+            color: #fff;
+            border: 0px solid transparent;
+            border-radius: 50px;
+            padding: 12px 30px;
+            width: 160px;
+            -webkit-box-shadow: 0px 0px 20px 0px rgba(102, 76, 249, 1);
+            -moz-box-shadow: 0px 0px 20px 0px rgba(102, 76, 249, 1);
+            box-shadow: 0px 0px 20px 0px rgba(102, 76, 249, 1);
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#664cf9+0,ff16ff+100 */
+            background: #664cf9;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #664cf9 0%, #ff16ff 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #664cf9 0%, #ff16ff 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #664cf9 0%, #ff16ff 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#664cf9', endColorstr='#ff16ff', GradientType=1);
+            /* IE6-9 */
+
+        }
+    }
+}
+
+footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    p {
+        font-family: 'Champions';
+        font-weight: 300;
+        font-style: normal;
+        color: #fff;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+
+    .bg-contato {
+        background: url(../images/bg-contato-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        position: relative;
+        padding-bottom: 40px;
+
+        .txt-01 {
+            font-size: 25px;
+            line-height: 25px;
+            margin-top: 30px;
+        }
+
+        .txt-02 {
+            font-size: 45px;
+            line-height: 45px;
+            margin-top: 20px;
+        }
+
+        .logos {
+            margin-top: 20px;
+        }
+
+        .mail-to {
+            margin-top: 30px;
+        }
+
+        .box-form {
+            padding: 30px 20px;
+        }
+
+        .cookies {
+            padding-top: 10px;
+
+            .btn_cookie {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
