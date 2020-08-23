@@ -10,8 +10,8 @@ class Contato extends CI_Controller
     }
     public function index()
     {
-        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020';
-        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR CAMPEONATO DE CLUBES DO MUNDO.';
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020/2021';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR ESPETÁCULO DA TERRA';
         $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
@@ -28,7 +28,7 @@ class Contato extends CI_Controller
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@futebolespetacular.com.br", "UEFA CHAMPIONS LEAGUE 2020");
+            $this->email->from("contato@futebolespetacular.com.br", "UEFA CHAMPIONS LEAGUE 2020/2021");
             $this->email->to('contato@futebolespetacular.com.br');
             $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, campfutebolespetacular@gmail.com, renata@spicycomm.com.br');
 
@@ -59,8 +59,8 @@ class Contato extends CI_Controller
 
     public function obrigado()
     {
-        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020';
-        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR CAMPEONATO DE CLUBES DO MUNDO.';
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020/2021';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR ESPETÁCULO DA TERRA';
         $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
@@ -74,8 +74,8 @@ class Contato extends CI_Controller
 
     public function fail()
     {
-        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020';
-        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR CAMPEONATO DE CLUBES DO MUNDO.';
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020/2021';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR ESPETÁCULO DA TERRA';
         $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
