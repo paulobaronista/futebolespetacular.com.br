@@ -7,9 +7,9 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'UEFA CHAMPIONS LEAGUE 20/21';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR CAMPEONATO DE CLUBES DO MUNDO.';
+        $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);

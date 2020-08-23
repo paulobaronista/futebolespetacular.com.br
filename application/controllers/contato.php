@@ -10,9 +10,9 @@ class Contato extends CI_Controller
     }
     public function index()
     {
-        $data['title'] = 'UEFA CHAMPIONS LEAGUE 20/21';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR CAMPEONATO DE CLUBES DO MUNDO.';
+        $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -28,9 +28,9 @@ class Contato extends CI_Controller
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@futebolespetacular.com.br", "UEFA CHAMPIONS LEAGUE 20/21");
+            $this->email->from("contato@futebolespetacular.com.br", "UEFA CHAMPIONS LEAGUE 2020");
             $this->email->to('contato@futebolespetacular.com.br');
-            $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, alfredosallesdigital@gmail.com, renata@spicycomm.com.br');
+            $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, campfutebolespetacular@gmail.com, renata@spicycomm.com.br');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -59,9 +59,9 @@ class Contato extends CI_Controller
 
     public function obrigado()
     {
-        $data['title'] = 'UEFA CHAMPIONS LEAGUE 20/21';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR CAMPEONATO DE CLUBES DO MUNDO.';
+        $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -74,9 +74,9 @@ class Contato extends CI_Controller
 
     public function fail()
     {
-        $data['title'] = 'UEFA CHAMPIONS LEAGUE 20/21';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR CAMPEONATO DE CLUBES DO MUNDO.';
+        $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
