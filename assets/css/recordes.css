@@ -12,6 +12,14 @@
   text-transform: uppercase;
 }
 
+.recordes .txt-01 span {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  display: block;
+  margin-top: 10px;
+}
+
 .bg-recordes {
   width: 100%;
   position: relative;
@@ -62,6 +70,11 @@
   .recordes .txt-01 {
     font-size: 23px;
     line-height: 23px;
+  }
+  .recordes .txt-01 span {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
   }
   .bg-recordes {
     background: #06113a;

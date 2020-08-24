@@ -22,17 +22,17 @@
   font-size: 50px;
   line-height: 50px;
   margin-top: 40px;
-}
-
-.home .txt-01 span {
-  font-size: 62px;
+  color: #5af7dc;
 }
 
 .home .txt-02 {
-  font-size: 42px;
-  line-height: 42px;
-  margin-top: 50px;
-  color: #5af7dc;
+  font-size: 62px;
+  line-height: 62px;
+  margin-top: 30px;
+}
+
+.home .txt-02 span {
+  font-size: 50px;
 }
 
 .home .txt-03 {
@@ -60,14 +60,15 @@
     font-size: 30px;
     line-height: 30px;
     margin-top: 20px;
-  }
-  .home .txt-01 span {
-    font-size: 42px;
+    color: #5af7dc;
   }
   .home .txt-02 {
-    font-size: 30px;
-    line-height: 30px;
-    margin-top: 30px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+  }
+  .home .txt-02 span {
+    font-size: 25px;
   }
   .home .txt-03 {
     font-size: 25px;

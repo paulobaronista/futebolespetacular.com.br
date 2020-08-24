@@ -9,6 +9,14 @@
         font-size: 50px;
         line-height: 50px;
         text-transform: uppercase;
+
+        span {
+            font-size: 30px;
+            line-height: 30px;
+            color: #fff;
+            display: block;
+            margin-top: 10px;
+        }
     }
 }
 
@@ -62,6 +70,12 @@
         .txt-01 {
             font-size: 23px;
             line-height: 23px;
+
+            span {
+                font-size: 20px;
+                line-height: 20px;
+                margin-top: 10px;
+            }
         }
     }
 

@@ -6,11 +6,10 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-01">
-                    VAI COMEÇAR O MAIOR ESPETÁCULO DA TERRA!<br>
-                    <span>UEFA CHAMPIONS LEAGUE 20/21</span>
+                    VAI COMEÇAR O MAIOR ESPETÁCULO<br> DE CLUBES DO MUNDO.<br>
                 </p>
-                <p class="txt-02">TRAGA SUA MARCA PARA JOGAR NO MAIOR<br>
-                    CAMPEONATO DE CLUBES DO MUNDO.</p>
+                <p class="txt-02">UEFA CHAMPIONS LEAGUE 20/21.<br>
+                    <span>A ARENA DAS GRANDES MARCAS</span></p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-03">
@@ -28,7 +27,10 @@
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
             <p class="txt-01">
                 RECORDE ATRáS DE RECORDE<br>
-                NA UeFA CHAMPIONS LEAGUE 19/20
+                NA UeFA CHAMPIONS LEAGUE 19/20<br>
+                <span>
+                    AS MAIORES AUDIENCIAS DA PAYTV! O MAIOR ENGAJAMENTO DIGITAL DE TODOS OS TEMPOS.
+                </span>
             </p>
         </div>
     </div>
@@ -65,7 +67,7 @@
                     DA UEFA CHAMPIONS LEAGUE<br>
                     E DA PAY TV EM 2020!
                 </p>
-                <img class="img-responsive parisxleipzig" src="<?= base_url(); ?>assets/images/parisxleipzig.png" alt="MAIOR AUDIÊNCIA DA HISTÓRIA">
+                <img class="img-responsive parisxleipzig" src="<?= base_url(); ?>assets/images/parisxbayern.png" alt="MAIOR AUDIÊNCIA DA HISTÓRIA">
             </div>
         </div>
     </div>
@@ -134,7 +136,7 @@
                 <p class="txt-02">
                     SUA MARCA NA CHAMPIONS.
                 </p>
-                <img class="img-responsive center-block logos" src="<?= base_url(); ?>assets/images/logos-contato.png" alt="Logos">
+                <img class="img-responsive center-block logos" src="<?= base_url(); ?>assets/images/logos-contato_v1.png" alt="Logos">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
                 <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
