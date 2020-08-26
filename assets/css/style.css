@@ -437,8 +437,8 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 54px;
-  line-height: 54px;
+  font-size: 48px;
+  line-height: 48px;
   text-transform: uppercase;
   padding-left: 10px;
   margin-top: 220px;
@@ -457,6 +457,28 @@ p {
 
 .bg-audiencia .parisxleipzig {
   margin-top: 40px;
+}
+
+.bg-audiencia .picosdeaudiencia {
+  margin-top: 20px;
+}
+
+.bg-audiencia .picosdeaudiencia p {
+  font-family: 'Champions';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.bg-audiencia .picosdeaudiencia p span {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 45px;
+  color: #5af7dc;
 }
 
 /* Extra Small */
@@ -503,9 +525,9 @@ p {
 
 .bg-tnt .txt-01 {
   font-family: 'Champions';
-  font-weight: normal;
+  font-weight: 800;
   font-style: normal;
-  color: #fff;
+  color: #5af7dc;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -532,11 +554,15 @@ p {
   font-family: 'Champions';
   font-weight: 800;
   font-style: normal;
-  color: #5af7dc;
+  color: #fff;
   font-size: 25px;
   line-height: 25px;
   text-transform: uppercase;
-  margin-top: 45px;
+  margin-top: 40px;
+}
+
+.bg-tnt .dt {
+  margin-top: 40px;
 }
 
 .bg-tnt .logo-tnt {
@@ -596,13 +622,63 @@ p {
 
 .bg-ei .txt-01 {
   font-family: 'Champions';
-  font-weight: normal;
+  font-weight: 800;
   font-style: normal;
   color: #fff;
+  font-size: 33px;
+  line-height: 33px;
+  text-transform: uppercase;
+  margin-top: 220px;
+}
+
+.bg-ei .face {
+  display: table;
+  margin-top: 40px;
+}
+
+.bg-ei .face .lg-face {
+  width: 80px;
+}
+
+.bg-ei .face span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bg-ei .face p {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #5af7dc;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.bg-ei .ei {
+  display: table;
+  margin-top: 40px;
+}
+
+.bg-ei .ei .lg-ei {
+  width: 80px;
+}
+
+.bg-ei .ei span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bg-ei .ei p {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #5af7dc;
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-left: 20px;
 }
 
 .bg-ei .txt-02 {
@@ -621,8 +697,8 @@ p {
   font-weight: 300;
   font-style: normal;
   color: #fff;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 14px;
   margin-top: 54px;
 }
 

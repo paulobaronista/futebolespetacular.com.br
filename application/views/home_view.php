@@ -43,10 +43,11 @@
 <div class="container-fluid padding-off bg-recordes">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-6 col-md-offset-5 col-lg-6 col-lg-offset-5">
-                <p class="txt-02">o super agosto bate três vezes o<br>
-                    <span>recorde histórico de audiência</span><br>
-                    NA UeFA CHAMPIONS LEAGUE!</p>
+            <div class="col-xs-12 col-sm-9 col-sm-offset-4 col-md-7 col-md-offset-5 col-lg-7 col-lg-offset-5">
+
+                <p class="txt-02">O SUPER AGOSTO BATE RECORDES<br>
+                    HISTORICOS DE AUDIENCIA.<br>
+                    <span>NA UeFA CHAMPIONS LEAGUE!</span></p>
                 <small>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020.</small>
                 <small>Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000)</small>
                 <img class="img-responsive center-block datas" src="<?= base_url(); ?>assets/images/datas.png" alt="o super agosto bate três vezes">
@@ -60,15 +61,32 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                 <p class="txt-01">
-                    MAIOR AUDIÊNCIA<br>
-                    DA HISTÓRIA
+                    A MAIOR AUDIÊNCIA DA PAY TV EM 30 ANOS.
                 </p>
                 <p class="txt-02">
-                    DA UEFA CHAMPIONS LEAGUE<br>
-                    E DA PAY TV EM 2020!
+                    LIDERANÇA ABSOLUTA DA TV BRASILEIRA!
                 </p>
                 <img class="img-responsive parisxleipzig" src="<?= base_url(); ?>assets/images/parisxbayern.png" alt="MAIOR AUDIÊNCIA DA HISTÓRIA">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding-off picosdeaudiencia">
+                    <div class="col-xs-6 col-sm-6 col-md-6 padding-off">
+                        <p>
+                            <span>19,67</span><br>
+                            AUDIÊNCIA<br>
+                            DOMICILIAR
+                        </p>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 padding-off">
+                        <p>
+                            <span>23,05</span><br>
+                            PICOS DE<br>
+                            AUDIÊNCIA
+                        </p>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
 </div>
@@ -79,19 +97,13 @@
             <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
                 <img class="img-responsive logo-tnt" src="<?= base_url(); ?>assets/images/TNT.png" alt="TNT">
                 <p class="txt-01">
-                    LIDERANÇA ABSOLUTA, INCLUSIVE À FRENTE
-                    DOS CANAIS DA TV ABERTA ENTRE HOMENS.
-                </p>
-                <p class="txt-02">
-                    +84 Milhões DE PESSOAS
-                    ALCANÇADAS <span>(TV + DIGITAL)</span>
+                    NO CONFRONTO FINAL A TNT CHEGOU A FICAR NA LIDERANÇA ABSOLUTA INCLUSIVE EM COMPARAÇÃO À TV ABERTA.
                 </p>
                 <p class="txt-03">
-                    E o CONFRONTO GEROU
+                    ENTRE OS HOMENS 18+ COM PAY TV, FOMOS LÍDERES ABSOLUTOS NA TV NO BRASIL, À FRENTE DE TODOS OS CANAIS DE TV ABERTA
                 </p>
-                <p class="txt-02">
-                    +15,1 milhões DE INTERAÇÕES
-                    NAS REDES SOCIAIS.
+                <p class="txt-02 dt">
+                    O CONFRONTO do dia 23/08 GEROU +18,7 MILHÕES DE INTERAÇÕES NAS REDES SOCIAIS.
                 </p>
             </div>
         </div>
@@ -102,25 +114,27 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img class="img-responsive logo-ei" src="<?= base_url(); ?>assets/images/EI.png" alt="EI">
                 <p class="txt-01">
-                    RECORDE HISTÓRICO<br>
-                    NO PORTAL DO EI
+                    RECORDE MUNDIAL DE UMA TRANSMISSÃO<br>
+                    ESPORTIVA POR STREAMING.
                 </p>
-                <p class="txt-02">
-                    1,9 MILHÕES<br>
-                    DE PAGEVIEWS<sup>*</sup>
-                </p>
-
-                <p class="txt-03">
-                    Em apenas um dia (18/08/2020) as redes sociais
-                    do EI<br> mantiveram os números históricos,
-                    o Instagram do EI<br> gerou 12.3MM de interações,
-                    alcançou mais de 45.8MM<br> de pessoas no Facebook,
-                    gerou mais de 170 mil<br> interações no Twitter
-                    e mais de 1.5M de views no<br> Youtube.
-                </p>
-
+                <div class="face">
+                    <span class="lg-face">
+                        <img class="img-responsive logo-face" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook">
+                    </span>
+                    <span>
+                        <p>+ de 4.3MM viewers simultâneos.</p>
+                    </span>
+                </div>
+                <div class="ei">
+                    <span class="lg-ei">
+                        <img class="img-responsive" src="<?= base_url(); ?>assets/images/EI.png" alt="EI">
+                    </span>
+                    <span>
+                        <p>3 X mais audiência do que a final da temporada anterior,
+                            batendo o recorde de usuários simultâneos em um OTT da WM na América Latina.</p>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
@@ -190,7 +204,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-                <p>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000) FONTE COMPILADA DE TODOS OS DADOS REFERENTES AO JOGO DO RB X PSG: Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Bases com TV Paga: Total de domicílios (9.436.000) , Homens 18+ anos (10.038.000); Pessoas 4+ anos (univ.: 26.344.000 / univ.proj.: 41.913.195). Considerando 15.2 MM de domicilios (Anatel Jun'20) e 3,02 pessoas por domicilio ; Social Bakers. 17 e 18/08/2020. Conteúdos relacionados ao jogo RB Leipzig x PSG ; Adobe Analytics. 18/08/2020</p>
+                <p>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000) FONTE COMPILADA DE TODOS OS DADOS REFERENTES AO JOGO DO RB X PSG: Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Bases com TV Paga: Total de domicílios (9.436.000) , Homens 18+ anos (10.038.000); Pessoas 4+ anos (univ.: 26.344.000 / univ.proj.: 41.913.195). Considerando 15.2 MM de domicilios (Anatel Jun'20) e 3,02 pessoas por domicilio ; Social Bakers. 17 e 18/08/2020. Conteúdos relacionados ao jogo RB Leipzig x PSG ; Adobe Analytics. 18/08/2020. Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados. 11/03/2020, 14/08/2020 e 18/08/2020. FUT LIGA CAMPEOES EUROPA VIVO. Rat%. Base com TV Paga: Total de domicílios (9.436.000)</p>
             </div>
         </div>
     </div>
