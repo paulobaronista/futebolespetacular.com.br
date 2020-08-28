@@ -29,7 +29,7 @@
                 RECORDE ATRáS DE RECORDE<br>
                 NA UeFA CHAMPIONS LEAGUE 19/20<br>
                 <span>
-                    AS MAIORES AUDIENCIAS DA PAYTV! O MAIOR ENGAJAMENTO DIGITAL DE TODOS OS TEMPOS.
+                    AS MAIORES AUDIêNCIAS DA PAYTV! O MAIOR ENGAJAMENTO DIGITAL DE TODOS OS TEMPOS.
                 </span>
             </p>
         </div>
@@ -46,7 +46,7 @@
             <div class="col-xs-12 col-sm-9 col-sm-offset-4 col-md-7 col-md-offset-5 col-lg-7 col-lg-offset-5">
 
                 <p class="txt-02">O SUPER AGOSTO BATE RECORDES<br>
-                    HISTORICOS DE AUDIENCIA.<br>
+                    HISTÓRICOS DE AUDIÊNCIA.<br>
                     <span>NA UeFA CHAMPIONS LEAGUE!</span></p>
                 <small>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020.</small>
                 <small>Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000)</small>
