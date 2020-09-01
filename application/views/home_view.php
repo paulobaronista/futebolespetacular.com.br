@@ -79,7 +79,7 @@
                     <div class="col-xs-6 col-sm-6 col-md-6 padding-off">
                         <p>
                             <span>23,05</span><br>
-                            PICOS DE<br>
+                            PICO DE<br>
                             AUDIÊNCIA
                         </p>
                     </div>
