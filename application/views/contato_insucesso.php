@@ -11,6 +11,15 @@
                 <p class="txt-02">UEFA CHAMPIONS LEAGUE 20/21.<br>
                     <span>A ARENA DAS GRANDES MARCAS</span></p>
             </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 video">
+                <video width="100%" height="auto" controls>
+                    <source src="<?= base_url(); ?>assets/video/champions.mp4" type="video/mp4">
+                    <source src="<?= base_url(); ?>assets/video/champions.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-03">
                     CONHEÇA OS PROJETOS<br>
@@ -100,8 +109,9 @@
                     NO CONFRONTO FINAL A TNT CHEGOU A FICAR NA LIDERANÇA ABSOLUTA INCLUSIVE EM COMPARAÇÃO À TV ABERTA.
                 </p>
                 <p class="txt-03">
-                    ENTRE OS HOMENS 18+ COM PAY TV, FOMOS LÍDERES ABSOLUTOS NA TV NO BRASIL, À FRENTE DE TODOS OS CANAIS DE TV ABERTA
+                    ENTRE OS HOMENS 18+ COM PAY TV, FOMOS LÍDERES ABSOLUTOS NA TV NO BRASIL, À FRENTE DE TODOS OS CANAIS DE TV ABERTA.
                 </p>
+                <p class="txt-03">ENTRE AS MULHERES 18+, TIVEMOS 2X MAIS AUDIÊNCIA QUE O 2º COLOCADO!</p>
                 <p class="txt-02 dt">
                     O CONFRONTO do dia 23/08 GEROU +18,7 MILHÕES DE INTERAÇÕES NAS REDES SOCIAIS.
                 </p>
@@ -204,7 +214,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-                <p>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000) FONTE COMPILADA DE TODOS OS DADOS REFERENTES AO JOGO DO RB X PSG: Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Bases com TV Paga: Total de domicílios (9.436.000) , Homens 18+ anos (10.038.000); Pessoas 4+ anos (univ.: 26.344.000 / univ.proj.: 41.913.195). Considerando 15.2 MM de domicilios (Anatel Jun'20) e 3,02 pessoas por domicilio ; Social Bakers. 17 e 18/08/2020. Conteúdos relacionados ao jogo RB Leipzig x PSG ; Adobe Analytics. 18/08/2020. Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados. 11/03/2020, 14/08/2020 e 18/08/2020. FUT LIGA CAMPEOES EUROPA VIVO. Rat%. Base com TV Paga: Total de domicílios (9.436.000)</p>
+                <p>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000) FONTE COMPILADA DE TODOS OS DADOS REFERENTES AO JOGO DO RB X PSG: Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Bases com TV Paga: Total de domicílios (9.436.000) , Homens 18+ anos (10.038.000); Pessoas 4+ anos (univ.: 26.344.000 / univ.proj.: 41.913.195). Considerando 15.2 MM de domicilios (Anatel Jun'20) e 3,02 pessoas por domicilio ; Social Bakers. 17 e 18/08/2020. Conteúdos relacionados ao jogo RB Leipzig x PSG ; Adobe Analytics. 18/08/2020. Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados. 11/03/2020, 14/08/2020 e 18/08/2020. FUT LIGA CAMPEOES EUROPA VIVO. Rat%. Base com TV Paga: Total de domicílios (9.436.000). Mulheres AB 18+ anos (6.812.000) e Mulheres ABC 18+ anos (11.379.000)</p>
             </div>
         </div>
     </div>

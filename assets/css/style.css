@@ -243,6 +243,7 @@ p {
   background: url(../images/bg-home.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-color: #06113a;
   padding-bottom: 50px;
 }
@@ -257,6 +258,10 @@ p {
   font-style: normal;
   color: #fff;
   text-transform: uppercase;
+}
+
+.home .video {
+  margin-top: 50px;
 }
 
 .home .txt-01 {
@@ -279,14 +284,14 @@ p {
 .home .txt-03 {
   font-size: 50px;
   line-height: 50px;
-  margin-top: 380px;
+  margin-top: 60px;
   color: #5af7dc;
 }
 
 .home .txt-04 {
   font-size: 40px;
   line-height: 40px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 /* Extra Small */
@@ -295,6 +300,7 @@ p {
     background: url(../images/bg-home-mobile.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding-bottom: 20px;
   }
   .home .txt-01 {
@@ -314,7 +320,7 @@ p {
   .home .txt-03 {
     font-size: 25px;
     line-height: 25px;
-    margin-top: 230px;
+    margin-top: 40px;
   }
   .home .txt-04 {
     font-size: 16px;
