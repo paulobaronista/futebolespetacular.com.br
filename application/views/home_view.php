@@ -108,9 +108,6 @@
                 <p class="txt-01">
                     NO CONFRONTO FINAL A TNT CHEGOU A FICAR NA LIDERANÇA ABSOLUTA INCLUSIVE EM COMPARAÇÃO À TV ABERTA.
                 </p>
-                <p class="txt-03">
-                    ENTRE OS HOMENS 18+ COM PAY TV, FOMOS LÍDERES ABSOLUTOS NA TV NO BRASIL, À FRENTE DE TODOS OS CANAIS DE TV ABERTA.
-                </p>
                 <p class="txt-03">ENTRE AS MULHERES 18+, TIVEMOS 2X MAIS AUDIÊNCIA QUE O 2º COLOCADO!</p>
                 <p class="txt-02 dt">
                     O CONFRONTO do dia 23/08 GEROU +18,7 MILHÕES DE INTERAÇÕES NAS REDES SOCIAIS.
