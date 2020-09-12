@@ -534,8 +534,8 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 27px;
+  line-height: 27px;
   text-transform: uppercase;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -546,14 +546,10 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 27px;
+  line-height: 27px;
   text-transform: uppercase;
-}
-
-.bg-tnt .txt-02 span {
-  font-size: 16px;
-  line-height: 16px;
+  margin-top: 10px;
 }
 
 .bg-tnt .txt-03 {
@@ -561,10 +557,10 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #fff;
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 23px;
+  line-height: 23px;
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .bg-tnt .dt {
@@ -899,6 +895,43 @@ p {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#664cf9', endColorstr='#ff16ff', GradientType=1);
   /* IE6-9 */
+}
+
+.redes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.redes p {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.redes div {
+  display: table;
+  margin: 0 auto;
+}
+
+.redes div figure {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.redes div figure a {
+  display: block;
+}
+
+.redes div figure figcaption {
+  font-family: 'Champions';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
 }
 
 footer {

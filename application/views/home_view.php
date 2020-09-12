@@ -103,14 +103,22 @@
 <div class="container-fluid padding-off bg-tnt">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-7 col-lg-offset-5">
                 <img class="img-responsive logo-tnt" src="<?= base_url(); ?>assets/images/TNT.png" alt="TNT">
                 <p class="txt-01">
+                    NA TEMPORADA 19/20 LIDERAMOS AS AUDIÊNCIAS EM TODOS OS TARGETS
+                </p>
+                <p class="txt-03">
+                    ENTRE HOMENS 18+, TIVEMOS 7 X MAIS QUE O SEGUNDO COLOCADO!
+                </p>
+                <p class="txt-03">
+                    ENTRE MULHERES 18+, TIVEMOS 2 X MAIS QUE O SEGUNDO COLOCADO!
+                </p>
+                <p class="txt-02 dt">
                     NO CONFRONTO FINAL A TNT CHEGOU A FICAR NA LIDERANÇA ABSOLUTA INCLUSIVE EM COMPARAÇÃO À TV ABERTA.
                 </p>
-                <p class="txt-03">ENTRE AS MULHERES 18+, TIVEMOS 2X MAIS AUDIÊNCIA QUE O 2º COLOCADO!</p>
-                <p class="txt-02 dt">
-                    O CONFRONTO do dia 23/08 GEROU +18,7 MILHÕES DE INTERAÇÕES NAS REDES SOCIAIS.
+                <p class="txt-02">
+                    GEROU +18,7 MILHÕES DE INTERAÇÕES NAS REDES SOCIAIS.
                 </p>
             </div>
         </div>
@@ -159,9 +167,29 @@
                 </p>
                 <img class="img-responsive center-block logos" src="<?= base_url(); ?>assets/images/logos-contato_v1.png" alt="Logos">
             </div>
+
             <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
                 <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
             </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 redes text-center">
+                <p>SIGA NOSSAS REDES SOCIAIS</p>
+                <div>
+                    <figure>
+                        <a href="https://www.instagram.com/tntforads/" target="_blank">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/instagram.png" alt="Instagram">
+                        </a>
+                        <figcaption>Instagram</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://www.linkedin.com/showcase/tnt-for-ads" target="_blank">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linkedIn.png" alt="LinkedIn">
+                        </a>
+                        <figcaption>LinkedIn</figcaption>
+                    </figure>
+                </div>
+            </div>
+
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                 <div class="box-form">
                     <form method="post" role="form" action="<?php echo base_url("contato") ?>">
@@ -190,6 +218,12 @@
                         </div>
                     </form>
                 </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
+                <a href="https://www.brasileiraoeaqui.com.br/" target="_blank">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/banner-br.jpg" alt="Brasileirão 2020">
+                </a>
             </div>
 
             <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 padding-off-mobile cookies">
