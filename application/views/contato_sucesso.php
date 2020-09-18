@@ -225,7 +225,7 @@
             <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 padding-off-mobile cookies">
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <p>
-                        Usamos cookies para garantir que obtém sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, personalizar publicidade e recomendar conteúdo de seu interesse. Ao clicar em “Aceito”, concorda com as nossas em receber nossas mensagens.
+                        Usamos cookies para garantir que obtém sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, personalizar publicidade e recomendar conteúdo de seu interesse. Ao clicar em “Aceito”, concorda em receber nossas mensagens.
                     </p>
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3">
@@ -257,5 +257,7 @@
 
 <!-- Event snippet for Champions - Lead conversion page -->
 <script>
-  gtag('event', 'conversion', {'send_to': 'AW-592712689/s4uiCI6_yt4BEPGn0JoC'});
+    gtag('event', 'conversion', {
+        'send_to': 'AW-592712689/s4uiCI6_yt4BEPGn0JoC'
+    });
 </script>
