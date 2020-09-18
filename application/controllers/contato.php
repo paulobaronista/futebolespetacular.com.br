@@ -21,7 +21,6 @@ class Contato extends CI_Controller
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $empresa = $this->input->post('empresa');
-            $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.futebolespetacular.com.br');
 
             $this->load->library('email');
@@ -39,7 +38,6 @@ class Contato extends CI_Controller
                 E-mail: {$email}<br/>
                     Telefone/Celular: {$telefone}<br/>
                         Agência/Empresa: {$empresa}<br/>
-                            Mensagem: {$mensagem}<br/>
                                 </body></html>");
 
             if ($this->email->send()) {

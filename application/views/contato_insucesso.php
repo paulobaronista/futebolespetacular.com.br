@@ -210,10 +210,6 @@
                                 <label for="empresa">Agência/Empresa</label>
                                 <input id="empresa" type="text" class="empresa form-control" name="empresa" />
                             </div>
-                            <div class="form-group">
-                                <label for="form-mensagem">Mensagem</label>
-                                <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss"></textarea>
-                            </div>
                             <button type="submit" class="btn_enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
                         </div>
                     </form>
