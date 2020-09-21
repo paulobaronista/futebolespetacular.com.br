@@ -120,6 +120,9 @@
                 <p class="txt-02">
                     GEROU +18,7 MILHÕES DE INTERAÇÕES NAS REDES SOCIAIS.
                 </p>
+                <p class="txt-02 dt" style="color: #fff">
+                    +7.6M DE PESSOAS PASSARAM PELA TNT PARA ASSISTIREM OS 10 PRIMEIROS JOGOS
+                </p>
             </div>
         </div>
     </div>
