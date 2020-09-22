@@ -228,7 +228,7 @@
             <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 padding-off-mobile cookies">
                 <div class="col-xs-12 col-sm-9 col-md-9">
                     <p>
-                        Usamos cookies para garantir que obtém sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, personalizar publicidade e recomendar conteúdo de seu interesse. Ao clicar em “Aceito”, concorda em receber nossas mensagens.
+                        Usamos cookies para garantir que obtém sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
                     </p>
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3">
@@ -243,6 +243,12 @@
 <footer>
     <div class="container">
         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
+                    <li><a href="<?php echo base_url(); ?>politicadecookies">Política de cookies</a></li>
+                </ul>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
                 <p>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000) FONTE COMPILADA DE TODOS OS DADOS REFERENTES AO JOGO DO RB X PSG: Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Bases com TV Paga: Total de domicílios (9.436.000) , Homens 18+ anos (10.038.000); Pessoas 4+ anos (univ.: 26.344.000 / univ.proj.: 41.913.195). Considerando 15.2 MM de domicilios (Anatel Jun'20) e 3,02 pessoas por domicilio ; Social Bakers. 17 e 18/08/2020. Conteúdos relacionados ao jogo RB Leipzig x PSG ; Adobe Analytics. 18/08/2020. Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados. 11/03/2020, 14/08/2020 e 18/08/2020. FUT LIGA CAMPEOES EUROPA VIVO. Rat%. Base com TV Paga: Total de domicílios (9.436.000). Mulheres AB 18+ anos (6.812.000) e Mulheres ABC 18+ anos (11.379.000)</p>
             </div>

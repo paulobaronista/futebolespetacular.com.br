@@ -100,12 +100,9 @@
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#664cf9), to(#ff16ff));
   background: linear-gradient(to right, #664cf9 0%, #ff16ff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#664cf9', endColorstr='#ff16ff', GradientType=1);
-  /* IE6-9 */
 }
 
-.bg-contato .cookies {
+.cookies {
   background-color: #051139;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -113,7 +110,7 @@
   display: none;
 }
 
-.bg-contato .cookies p {
+.cookies p {
   font-family: 'Champions';
   font-weight: 300;
   font-style: normal;
@@ -123,7 +120,7 @@
   margin-top: 7px;
 }
 
-.bg-contato .cookies .btn_cookie {
+.cookies .btn_cookie {
   font-family: 'Champions';
   font-weight: 800;
   font-style: normal;
@@ -143,9 +140,6 @@
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#664cf9), to(#ff16ff));
   background: linear-gradient(to right, #664cf9 0%, #ff16ff 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#664cf9', endColorstr='#ff16ff', GradientType=1);
-  /* IE6-9 */
 }
 
 .redes {
@@ -199,6 +193,38 @@ footer p {
   line-height: 14px;
 }
 
+footer .navbar-nav {
+  padding-bottom: 14px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid white;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .bg-contato {
@@ -227,11 +253,14 @@ footer p {
   .bg-contato .box-form {
     padding: 30px 20px;
   }
-  .bg-contato .cookies {
+  .cookies {
     padding-top: 10px;
   }
-  .bg-contato .cookies .btn_cookie {
+  .cookies .btn_cookie {
     margin-top: 20px;
+  }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
   }
 }
 

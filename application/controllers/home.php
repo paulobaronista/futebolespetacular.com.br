@@ -20,6 +20,32 @@ class Home extends CI_Controller{
         $this->load->view('html_footer');
 
     }
+    public function politicadeprivacidade(){
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020/2021';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR ESPETÁCULO DA TERRA';
+        $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
+        $menu['politicadeprivacidade'] = 'active';
+		$conteudo['pagina_view'] = 'politicadeprivacidade_view';
+		$this->load->view('html_header', $data);
+		$this->load->view('header');
+		$this->load->view('menu', $menu);
+		$this->load->view('conteudo', $conteudo);
+		$this->load->view('rodape');
+		$this->load->view('html_footer');
+    }
+    public function politicadecookies(){
+        $data['title'] = 'UEFA CHAMPIONS LEAGUE 2020/2021';
+        $data['description'] = 'TRAGA SUA MARCA PARA JOGAR NO MAIOR ESPETÁCULO DA TERRA';
+        $data['keywords'] = 'UEFA champions league 2020, futebol 2020, Midia champions league, imprensa champions league';
+        $menu['politicadecookies'] = 'active';
+		$conteudo['pagina_view'] = 'politicadecookies_view';
+		$this->load->view('html_header', $data);
+		$this->load->view('header');
+		$this->load->view('menu', $menu);
+		$this->load->view('conteudo', $conteudo);
+		$this->load->view('rodape');
+		$this->load->view('html_footer');
+	}
 
 }
 
