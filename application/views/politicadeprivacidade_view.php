@@ -10,8 +10,7 @@
     <div class="container politica-info">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
-                <p>Obrigado por visitar os sites e serviços do site Esporte Interativo, incluindo o EI PLUS,
-                    de propriedade e/ou controlados pela TopSports Ventures Ltda., estabelecida na cidade do
+            <p>Obrigado por visitar os sites e serviços do nosso site, de propriedade e/ou controlados pela TopSports Ventures Ltda., estabelecida na cidade do
                     Rio de Janeiro/RJ, na Rua Visconde de Ouro Preto, 75, Botafogo, CEP 22250-180, inscrita no
                     CNPJ/MF sob o nº 03.390.444/0001-79 e com filial na cidade de São Paulo, estado de São Paulo,
                     na Rua Ministro Jesuíno Cardoso, 454, 2º andar, Vila Nova Conceição, CEP -04544-051, inscrita
