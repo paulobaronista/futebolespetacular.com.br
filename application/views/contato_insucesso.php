@@ -165,15 +165,20 @@
                 <p class="txt-01">
                     FALE COM NOSSOS EXECUTIVOS E CONHEÇA OS DETALHES DO PROJETO COMERCIAL
                 </p>
+                <div class="txt-03">
+                    <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
+                </div>
                 <p class="txt-02">
                     SUA MARCA NA CHAMPIONS.
                 </p>
                 <img class="img-responsive center-block logos" src="<?= base_url(); ?>assets/images/logos-contato_v1.png" alt="Logos">
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
-                <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
-            </div>
+            <!-- 
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
+                    <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
+                </div>
+            -->
 
             <div class="col-xs-12 col-sm-12 col-md-12 redes text-center">
                 <p>SIGA NOSSAS REDES SOCIAIS</p>
@@ -192,7 +197,7 @@
                     </figure>
                 </div>
             </div>
-
+            <!-- 
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                 <div class="box-form">
                     <form method="post" role="form" action="<?php echo base_url("contato") ?>">
@@ -217,7 +222,8 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> 
+            -->
 
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
                 <a href="https://www.brasileiraoeaqui.com.br/" target="_blank">

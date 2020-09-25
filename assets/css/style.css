@@ -766,6 +766,19 @@ p {
   margin-top: 100px;
 }
 
+.bg-contato .txt-03 {
+  margin-top: 20px;
+}
+
+.bg-contato .txt-03 a {
+  font-family: 'Champions';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  font-size: 35px;
+  line-height: 35px;
+}
+
 .bg-contato .txt-02 {
   font-family: 'Champions';
   font-weight: 800;
@@ -987,6 +1000,13 @@ footer .navbar-nav li:last-child a {
     font-size: 25px;
     line-height: 25px;
     margin-top: 30px;
+  }
+  .bg-contato .txt-03 {
+    margin-top: 20px;
+  }
+  .bg-contato .txt-03 a {
+    font-size: 25px;
+    line-height: 25px;
   }
   .bg-contato .txt-02 {
     font-size: 45px;
