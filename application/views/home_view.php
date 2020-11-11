@@ -173,13 +173,6 @@
                 </p>
                 <img class="img-responsive center-block logos" src="<?= base_url(); ?>assets/images/logos-contato_v1.png" alt="Logos">
             </div>
-
-            <!-- 
-                <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
-                    <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
-                </div>
-            -->
-
             <div class="col-xs-12 col-sm-12 col-md-12 redes text-center">
                 <p>SIGA NOSSAS REDES SOCIAIS</p>
                 <div>
@@ -197,51 +190,12 @@
                     </figure>
                 </div>
             </div>
-            <!-- 
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                <div class="box-form">
-                    <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-                        <div class="group-form">
-                            <div class="form-group">
-                                <label for="nome">Nome*</label>
-                                <input id="nome" type="text" class="nome form-control" name="nome" required="required" />
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email*</label>
-                                <input id="email" type="email" class="email form-control" name="email" required="required" />
-                            </div>
-                            <div class="form-group">
-                                <label for="telefone">Telefone/Celular</label>
-                                <input id="telefone" class="phone form-control" type="tel" name="phone" />
-                            </div>
-                            <div class="form-group">
-                                <label for="empresa">Agência/Empresa</label>
-                                <input id="empresa" type="text" class="empresa form-control" name="empresa" />
-                            </div>
-                            <button type="submit" class="btn_enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div> 
-            -->
 
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
                 <a href="https://www.brasileiraoeaqui.com.br/" target="_blank">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/banner-br.jpg" alt="Brasileirão 2020">
                 </a>
             </div>
-
-            <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 padding-off-mobile cookies">
-                <div class="col-xs-12 col-sm-9 col-md-9">
-                    <p>
-                        Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
-                    </p>
-                </div>
-                <div class="col-xs-12 col-sm-3 col-md-3">
-                    <a href="#" class="btn_cookie btn center-block">Aceito</a>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
@@ -262,7 +216,15 @@
     </div>
 </footer>
 
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>
+<div id="cookies" class="cookies">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <p>
+                Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <a href="#" class="btn_cookie btn center-block">Aceito</a>
+        </div>
+    </div>
+</div>

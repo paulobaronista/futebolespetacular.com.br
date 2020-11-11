@@ -116,14 +116,24 @@
 }
 
 .cookies {
-  background-color: #051139;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 40px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  height: 100%;
+  top: 0;
   display: none;
 }
 
-.cookies p {
+.cookies .box {
+  background-color: #051139;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.cookies .box p {
   font-family: 'Champions';
   font-weight: 300;
   font-style: normal;
@@ -133,7 +143,7 @@
   margin-top: 7px;
 }
 
-.cookies .btn_cookie {
+.cookies .box .btn_cookie {
   font-family: 'Champions';
   font-weight: 800;
   font-style: normal;
@@ -273,10 +283,10 @@ footer .navbar-nav li:last-child a {
   .bg-contato .box-form {
     padding: 30px 20px;
   }
-  .cookies {
+  .cookies .box {
     padding-top: 10px;
   }
-  .cookies .btn_cookie {
+  .cookies .box .btn_cookie {
     margin-top: 20px;
   }
   footer .navbar-nav li > a {

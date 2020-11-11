@@ -2,27 +2,27 @@ $(document).ready(function () {
 
     $('#modalCabore').modal();
 
-    // Check if the user already accepted it
-    if (window.localStorage.getItem('accept_modal')) {
+    //  Check if the user already accepted it
+    // if (window.localStorage.getItem('accept_modal')) {
 
-        $('#modalCabore').modal('hide');
+    //     $('#modalCabore').modal('hide');
 
-        return false;
-    }
-    $(".close").click(function () {
+    //     return false;
+    // }
+    // $(".close").click(function () {
 
-        // Save on LocalStorage
-        window.localStorage.setItem('accept_modal', true);
+    //     Save on LocalStorage
+    //     window.localStorage.setItem('accept_modal', true);
 
-        $('#modalCabore').modal('hide');
+    //     $('#modalCabore').modal('hide');
 
-        return false;
-    });
+    //     return false;
+    // });
 }); 
 
 $(document).ready(function(){
 
-	$('#cookies').show(3000);
+	$('#cookies').show();
 
     // Check if the user already accepted it
     if (window.localStorage.getItem('accept_cookies')) {
