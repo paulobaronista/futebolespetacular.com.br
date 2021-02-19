@@ -3,8 +3,8 @@
   background-size: cover;
   background-position: center top;
   position: relative;
-  margin-top: -240px;
-  padding-bottom: 120px;
+  margin-top: -140px;
+  padding-bottom: 280px;
 }
 
 .bg-audiencia .txt-01 {
@@ -12,11 +12,11 @@
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 51px;
+  line-height: 55px;
   text-transform: uppercase;
   padding-left: 10px;
-  margin-top: 220px;
+  margin-top: 350px;
 }
 
 .bg-audiencia .txt-02 {
@@ -56,6 +56,26 @@
   color: #5af7dc;
 }
 
+.bg-audiencia .ei {
+  display: table;
+  margin-top: 350px;
+}
+
+.bg-audiencia .ei .lg-ei {
+  padding-bottom: 15px;
+  display: block;
+}
+
+.bg-audiencia .ei p {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #5af7dc;
+  font-size: 35px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .bg-audiencia {
@@ -84,6 +104,15 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+  }
+  .bg-audiencia .ei {
+    display: table;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .bg-audiencia .ei p {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 

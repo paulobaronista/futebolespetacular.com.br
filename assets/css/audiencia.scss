@@ -3,19 +3,19 @@
     background-size: cover;
     background-position: center top;
     position: relative;
-    margin-top: -240px;
-    padding-bottom: 120px;
+    margin-top: -140px;
+    padding-bottom: 280px;
 
     .txt-01 {
         font-family: 'Champions';
         font-weight: 800;
         font-style: normal;
         color: #5af7dc;
-        font-size: 48px;
-        line-height: 48px;
+        font-size: 51px;
+        line-height: 55px;
         text-transform: uppercase;
         padding-left: 10px;
-        margin-top: 220px;
+        margin-top: 350px;
     }
 
     .txt-02 {
@@ -54,6 +54,26 @@
             }
         }
     }
+
+    .ei {
+        display: table;
+        margin-top: 350px;
+
+        .lg-ei {
+            padding-bottom: 15px;
+            display: block;
+        }
+
+        p {
+            font-family: 'Champions';
+            font-weight: 800;
+            font-style: normal;
+            color: #5af7dc;
+            font-size: 35px;
+            line-height: 45px;
+            text-transform: uppercase;
+        }
+    }
 }
 
 /* Extra Small */
@@ -86,6 +106,17 @@
             display: block;
             margin-right: auto;
             margin-left: auto;
+        }
+
+        .ei {
+            display: table;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+            p {
+                font-size: 20px;
+                line-height: 25px;
+            }
         }
     }
 }

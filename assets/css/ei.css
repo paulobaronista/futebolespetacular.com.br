@@ -11,10 +11,10 @@
   font-weight: 800;
   font-style: normal;
   color: #fff;
-  font-size: 33px;
-  line-height: 33px;
+  font-size: 37px;
+  line-height: 40px;
   text-transform: uppercase;
-  margin-top: 220px;
+  margin-top: 100px;
 }
 
 .bg-ei .face {
@@ -23,12 +23,8 @@
 }
 
 .bg-ei .face .lg-face {
-  width: 80px;
-}
-
-.bg-ei .face span {
-  display: table-cell;
-  vertical-align: middle;
+  padding-bottom: 15px;
+  display: block;
 }
 
 .bg-ei .face p {
@@ -39,21 +35,16 @@
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  padding-left: 20px;
 }
 
 .bg-ei .ei {
   display: table;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .bg-ei .ei .lg-ei {
-  width: 80px;
-}
-
-.bg-ei .ei span {
-  display: table-cell;
-  vertical-align: middle;
+  padding-bottom: 15px;
+  display: block;
 }
 
 .bg-ei .ei p {
@@ -62,9 +53,8 @@
   font-style: normal;
   color: #5af7dc;
   font-size: 25px;
-  line-height: 25px;
+  line-height: 30px;
   text-transform: uppercase;
-  padding-left: 20px;
 }
 
 .bg-ei .txt-02 {

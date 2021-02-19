@@ -5,42 +5,24 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="UEFA CHAMPIONS LEAGUE">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <p class="txt-01">
-                    VAI COMEÇAR O MAIOR ESPETÁCULO<br> DE CLUBES DO MUNDO.<br>
-                </p>
                 <p class="txt-02">UEFA CHAMPIONS LEAGUE 20/21.<br>
-                    <span>A ARENA DAS GRANDES MARCAS</span></p>
+                    <span>A ARENA DAS GRANDES MARCAS</span>
+                </p>
             </div>
-
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 video">
                 <video width="100%" height="auto" controls>
-                    <source src="<?= base_url(); ?>assets/video/champions.mp4" type="video/mp4">
-                    <source src="<?= base_url(); ?>assets/video/champions.ogg" type="video/ogg">
+                    <source src="<?= base_url(); ?>assets/video/champions_2021.mp4" type="video/mp4">
+                    <source src="<?= base_url(); ?>assets/video/champions_2021.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                 </video>
             </div>
-
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-03">
-                    CONHEÇA OS PROJETOS<br>
-                    COMERCIAIS DA NOVA TEMPORADA
+                    CONHEÇA TODOS OS PROJETOS<br>
+                    COMERCIAIS DESTA TEMPORADA
                 </p>
                 <p class="txt-04">AUDIêNCIAS ESPETACULARES. NÚMEROS IMPRESSIONANTES.</p>
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="container recordes">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-            <p class="txt-01">
-                RECORDE ATRáS DE RECORDE<br>
-                NA UeFA CHAMPIONS LEAGUE 19/20<br>
-                <span>
-                    AS MAIORES AUDIêNCIAS DA PAYTV! O MAIOR ENGAJAMENTO DIGITAL DE TODOS OS TEMPOS.
-                </span>
-            </p>
         </div>
     </div>
 </div>
@@ -52,14 +34,13 @@
 <div class="container-fluid padding-off bg-recordes">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-9 col-sm-offset-4 col-md-7 col-md-offset-5 col-lg-7 col-lg-offset-5">
-
-                <p class="txt-02">O SUPER AGOSTO BATE RECORDES<br>
-                    HISTÓRICOS DE AUDIÊNCIA.<br>
-                    <span>NA UeFA CHAMPIONS LEAGUE!</span></p>
-                <small>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020.</small>
-                <small>Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000)</small>
-                <img class="img-responsive center-block datas" src="<?= base_url(); ?>assets/images/datas.png" alt="o super agosto bate três vezes">
+            <div class="col-xs-12 col-sm-9 col-sm-offset-4 col-md-7 col-md-offset-5 col-lg-6 col-lg-offset-6">
+                <p class="txt-02">
+                    MAIS DE 7.6 MM DE PESSOAS<br class="hidden-xs">
+                    PASSARAM PELOS CANAIS<br class="hidden-xs">
+                    WARNER MEDIA PARA<br class="hidden-xs">
+                    ASSISTIR AOS JOGOS<br class="hidden-xs"> DA FASE DE GRUPOS
+                </p>
             </div>
         </div>
     </div>
@@ -68,34 +49,21 @@
 <div class="container-fluid padding-off bg-audiencia">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                <p class="txt-01">
-                    A MAIOR AUDIÊNCIA DA PAY TV EM 30 ANOS.
-                </p>
-                <p class="txt-02">
-                    LIDERANÇA ABSOLUTA DA TV BRASILEIRA!
-                </p>
-                <img class="img-responsive parisxleipzig" src="<?= base_url(); ?>assets/images/parisxbayern.png" alt="MAIOR AUDIÊNCIA DA HISTÓRIA">
-                <div class="col-xs-12 col-sm-12 col-md-12 padding-off picosdeaudiencia">
-                    <div class="col-xs-6 col-sm-6 col-md-6 padding-off">
-                        <p>
-                            <span>19,67</span><br>
-                            AUDIÊNCIA<br>
-                            DOMICILIAR
-                        </p>
-                    </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <!-- <p class="txt-01">
+                    Em 2020 a tnt teve a maior audiência da PAY TV em 30 anos.
+                </p> -->
 
-                    <div class="col-xs-6 col-sm-6 col-md-6 padding-off">
-                        <p>
-                            <span>23,05</span><br>
-                            PICO DE<br>
-                            AUDIÊNCIA
-                        </p>
-                    </div>
+                <div class="ei">
+                    <span class="lg-ei">
+                        <img class="img-responsive" src="<?= base_url(); ?>assets/images/tnt-sports.png" alt="TNT SPORTS">
+                    </span>
+                    <span>
+                        <p>A TEMPORADA COM A MAIOR AUDIÊNCIA<br>
+                            DA HISTÓRIA DE UMA FASE DE GRUPOS.</p>
+                    </span>
                 </div>
-
             </div>
-
         </div>
     </div>
 </div>
@@ -103,25 +71,13 @@
 <div class="container-fluid padding-off bg-tnt">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-7 col-lg-offset-5">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
                 <img class="img-responsive logo-tnt" src="<?= base_url(); ?>assets/images/TNT.png" alt="TNT">
                 <p class="txt-01">
-                    NA TEMPORADA 19/20 LIDERAMOS AS AUDIÊNCIAS EM TODOS OS TARGETS
+                    TNT FOI LÍDER DE AUDIÊNCIA DE TODA A PAY TV na média da fase de grupos, com uma audiência 116% maior do que o 2º colocado.
                 </p>
                 <p class="txt-03">
-                    ENTRE HOMENS 18+, TIVEMOS 7 X MAIS QUE O SEGUNDO COLOCADO!
-                </p>
-                <p class="txt-03">
-                    ENTRE MULHERES 18+, TIVEMOS 2 X MAIS QUE O SEGUNDO COLOCADO!
-                </p>
-                <p class="txt-02 dt">
-                    NO CONFRONTO FINAL A TNT CHEGOU A FICAR NA LIDERANÇA ABSOLUTA INCLUSIVE EM COMPARAÇÃO À TV ABERTA.
-                </p>
-                <p class="txt-02">
-                    GEROU +18,7 MILHÕES DE INTERAÇÕES NAS REDES SOCIAIS.
-                </p>
-                <p class="txt-02 dt" style="color: #fff">
-                    +7.6M DE PESSOAS PASSARAM PELA TNT PARA ASSISTIREM OS 10 PRIMEIROS JOGOS
+                    A TNT LIDEROU A TV PAGA EM TODOS OS 24 JOGOS TRANSMITIDOS, ENTRE OS HOMENS.
                 </p>
             </div>
         </div>
@@ -133,26 +89,28 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <p class="txt-01">
-                    RECORDE MUNDIAL DE UMA TRANSMISSÃO<br>
-                    ESPORTIVA POR STREAMING.
+                    NAS REDES SOCIAIS,<br>
+                    DO PLAYOFF À FASE<br>
+                    DE GRUPOS, ATINGIMOS:
                 </p>
                 <div class="face">
                     <span class="lg-face">
                         <img class="img-responsive logo-face" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook">
                     </span>
                     <span>
-                        <p>+ de 4.3MM viewers simultâneos.</p>
+                        <p>+ 71 MM DE INTERAÇÕES</p>
+                        <p>+ 244 MM de VIEWS</p>
                     </span>
                 </div>
-                <div class="ei">
+                <!-- <div class="ei">
                     <span class="lg-ei">
-                        <img class="img-responsive" src="<?= base_url(); ?>assets/images/EI.png" alt="EI">
+                        <img class="img-responsive" src="<?= base_url(); ?>assets/images/tnt-sports.png" alt="TNT SPORTS">
                     </span>
                     <span>
-                        <p>3 X mais audiência do que a final da temporada anterior,
-                            batendo o recorde de usuários simultâneos em um OTT da WM na América Latina.</p>
+                        <p>A TEMPORADA COM A MAIOR AUDIÊNCIA<br>
+                            DA HISTÓRIA DE UMA FASE DE GRUPOS.</p>
                     </span>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -163,10 +121,15 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-01">
-                    FALE COM NOSSOS EXECUTIVOS E CONHEÇA OS DETALHES DO PROJETO COMERCIAL
+                    NÃO IMPORTA A PLATAFORMA, SOMOS A #CASADACHAMPIONS!<br>
+
+                    TRAGA SUA MARCA PARA A CHAMPIONS!
+                </p>
+                <p class="txt-05">
+                    FALE COM NOSSO EXECUTIVOS.<br> TEMOS O FORMATO EXATO PARA SEU PRODUTO.
                 </p>
                 <div class="txt-03">
-                    <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
+                    <a href="mailto:ADSALES.BRASIL@WARNERMEDIA.COM">ADSALES.BRASIL@WARNERMEDIA.COM</a>
                 </div>
                 <p class="txt-02">
                     SUA MARCA NA CHAMPIONS.
@@ -210,7 +173,7 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-                <p>Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados.12, 14 e 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000) FONTE COMPILADA DE TODOS OS DADOS REFERENTES AO JOGO DO RB X PSG: Fontes: Kantar IBOPE Media Brasil. 15 Mercados. 18/08/2020. Fut Liga Campeoes Europa Vivo. Rat%. Bases com TV Paga: Total de domicílios (9.436.000) , Homens 18+ anos (10.038.000); Pessoas 4+ anos (univ.: 26.344.000 / univ.proj.: 41.913.195). Considerando 15.2 MM de domicilios (Anatel Jun'20) e 3,02 pessoas por domicilio ; Social Bakers. 17 e 18/08/2020. Conteúdos relacionados ao jogo RB Leipzig x PSG ; Adobe Analytics. 18/08/2020. Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados. 11/03/2020, 14/08/2020 e 18/08/2020. FUT LIGA CAMPEOES EUROPA VIVO. Rat%. Base com TV Paga: Total de domicílios (9.436.000). Mulheres AB 18+ anos (6.812.000) e Mulheres ABC 18+ anos (11.379.000)</p>
+                <p>Fontes: Kantar IBOPE Media Brasil. 15 Mercados. Set a Dez’20. Fut Liga Campeoes Europa Vivo. Rat% e Cov%. Bases com TV Paga: Total de domicílios (9.436.000), Homens 18+ anos (10.021.000) e Pessoas 4+ anos (26.344.500 / univ. proj.: 45.844.545). Considerando 15M de domicílios assinantes (Anatel – Out’20) e 302 pessoas por domicílio ; Social Bakers. Out a Dez’20. Considerando todos os conteúdos relacionados à #CasaDaChampions.</p>
             </div>
         </div>
     </div>

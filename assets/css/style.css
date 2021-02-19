@@ -555,7 +555,7 @@ p {
   position: relative;
   background: url(../images/bg-recordes.jpg) no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: left top;
   background-color: #06113a;
   padding-bottom: 150px;
 }
@@ -570,11 +570,11 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 43px;
+  line-height: 52px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  margin-top: 100px;
+  margin-top: 160px;
 }
 
 .bg-recordes .txt-02 span {
@@ -630,8 +630,8 @@ p {
   background-size: cover;
   background-position: center top;
   position: relative;
-  margin-top: -240px;
-  padding-bottom: 120px;
+  margin-top: -140px;
+  padding-bottom: 280px;
 }
 
 .bg-audiencia .txt-01 {
@@ -639,11 +639,11 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 51px;
+  line-height: 55px;
   text-transform: uppercase;
   padding-left: 10px;
-  margin-top: 220px;
+  margin-top: 350px;
 }
 
 .bg-audiencia .txt-02 {
@@ -683,6 +683,26 @@ p {
   color: #5af7dc;
 }
 
+.bg-audiencia .ei {
+  display: table;
+  margin-top: 350px;
+}
+
+.bg-audiencia .ei .lg-ei {
+  padding-bottom: 15px;
+  display: block;
+}
+
+.bg-audiencia .ei p {
+  font-family: 'Champions';
+  font-weight: 800;
+  font-style: normal;
+  color: #5af7dc;
+  font-size: 35px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .bg-audiencia {
@@ -712,6 +732,15 @@ p {
     margin-right: auto;
     margin-left: auto;
   }
+  .bg-audiencia .ei {
+    display: table;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .bg-audiencia .ei p {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 /* Small */
@@ -720,7 +749,7 @@ p {
 .bg-tnt {
   background: url(../images/bg-tnt.jpg) no-repeat;
   background-size: cover;
-  background-position: left top;
+  background-position: left center;
   position: relative;
   padding-bottom: 140px;
 }
@@ -730,8 +759,8 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 27px;
-  line-height: 27px;
+  font-size: 28px;
+  line-height: 29px;
   text-transform: uppercase;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -753,8 +782,8 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #fff;
-  font-size: 23px;
-  line-height: 23px;
+  font-size: 27px;
+  line-height: 27px;
   text-transform: uppercase;
   margin-top: 10px;
 }
@@ -823,10 +852,10 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #fff;
-  font-size: 33px;
-  line-height: 33px;
+  font-size: 37px;
+  line-height: 40px;
   text-transform: uppercase;
-  margin-top: 220px;
+  margin-top: 100px;
 }
 
 .bg-ei .face {
@@ -835,12 +864,8 @@ p {
 }
 
 .bg-ei .face .lg-face {
-  width: 80px;
-}
-
-.bg-ei .face span {
-  display: table-cell;
-  vertical-align: middle;
+  padding-bottom: 15px;
+  display: block;
 }
 
 .bg-ei .face p {
@@ -851,21 +876,16 @@ p {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  padding-left: 20px;
 }
 
 .bg-ei .ei {
   display: table;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .bg-ei .ei .lg-ei {
-  width: 80px;
-}
-
-.bg-ei .ei span {
-  display: table-cell;
-  vertical-align: middle;
+  padding-bottom: 15px;
+  display: block;
 }
 
 .bg-ei .ei p {
@@ -874,9 +894,8 @@ p {
   font-style: normal;
   color: #5af7dc;
   font-size: 25px;
-  line-height: 25px;
+  line-height: 30px;
   text-transform: uppercase;
-  padding-left: 20px;
 }
 
 .bg-ei .txt-02 {
@@ -956,10 +975,20 @@ p {
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 33px;
-  line-height: 33px;
+  font-size: 38px;
+  line-height: 43px;
   text-transform: uppercase;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.bg-contato .txt-05 {
+  font-family: 'Champions';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  font-size: 25px;
+  line-height: 35px;
+  margin-top: 20px;
 }
 
 .bg-contato .txt-03 {

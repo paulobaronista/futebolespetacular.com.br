@@ -1,7 +1,7 @@
 .bg-tnt {
   background: url(../images/bg-tnt.jpg) no-repeat;
   background-size: cover;
-  background-position: left top;
+  background-position: left center;
   position: relative;
   padding-bottom: 140px;
 }
@@ -11,8 +11,8 @@
   font-weight: 800;
   font-style: normal;
   color: #5af7dc;
-  font-size: 27px;
-  line-height: 27px;
+  font-size: 28px;
+  line-height: 29px;
   text-transform: uppercase;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -34,8 +34,8 @@
   font-weight: 800;
   font-style: normal;
   color: #fff;
-  font-size: 23px;
-  line-height: 23px;
+  font-size: 27px;
+  line-height: 27px;
   text-transform: uppercase;
   margin-top: 10px;
 }
