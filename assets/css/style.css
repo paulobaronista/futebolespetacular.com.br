@@ -965,7 +965,7 @@ p {
 .bg-contato {
   background: url(../images/bg-contato.jpg) no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   position: relative;
   padding-bottom: 40px;
 }

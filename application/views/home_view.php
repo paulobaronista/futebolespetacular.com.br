@@ -129,7 +129,7 @@
                     FALE COM NOSSO EXECUTIVOS.<br> TEMOS O FORMATO EXATO PARA SEU PRODUTO.
                 </p>
                 <div class="txt-03">
-                    <a href="mailto:ADSALES.BRASIL@WARNERMEDIA.COM">ADSALES.BRASIL@WARNERMEDIA.COM</a>
+                    <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
                 </div>
                 <p class="txt-02">
                     SUA MARCA NA CHAMPIONS.
@@ -153,12 +153,11 @@
                     </figure>
                 </div>
             </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
                 <a href="https://www.brasileiraoeaqui.com.br/" target="_blank">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/banner-br.jpg" alt="Brasileirão 2020">
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
